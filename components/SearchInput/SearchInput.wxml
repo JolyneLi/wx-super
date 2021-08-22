@@ -1,0 +1,6 @@
+<view class="input">
+    <!-- 路径前面有斜线 -->
+    <navigator url="/pages/search/index" open-type="navigate" hover-class="navigatorhover">
+        搜索
+    </navigator>
+</view>
