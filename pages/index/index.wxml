@@ -1,4 +1,5 @@
 <view class="main">
     低腰
     <SearchInput></SearchInput>
+    13
 </view>
