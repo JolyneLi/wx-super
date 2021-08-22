@@ -1,0 +1,6 @@
+
+.index{
+    font-size: var(--themeFont);
+    color: var(--col_c);
+
+}

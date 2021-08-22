@@ -1,14 +1,48 @@
 {
   "pages":[
     "pages/index/index",
-    "pages/login/index"
+    "pages/login/index",
+    "pages/category/index",
+    "pages/cart/index",
+    "pages/user/index",
+    "pages/search/index"
   ],
-  "window":{
+  "window":{  
     "backgroundTextStyle":"light",
-    "navigationBarBackgroundColor": "#fff",
-    "navigationBarTitleText": "鲜果购",
-    "navigationBarTextStyle":"black"
+    "navigationBarBackgroundColor": "#eb4450",
+    "navigationBarTitleText": "鲜果购", 
+    "navigationBarTextStyle":"white"
   },
-  "style": "v2",
+  "tabBar": {
+    "color": "#dbdbdb",
+    "selectedColor": "#d81e06",
+    "backgroundColor": "#fafafa",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text":"首页",
+        "iconPath": "./icon/home.png",
+        "selectedIconPath": "./icon/a-home.png"
+      },
+      {
+        "pagePath": "pages/category/index",
+        "text":"分类",
+        "iconPath": "./icon/cate.png",
+        "selectedIconPath": "./icon/a-cate.png"
+      },
+      {
+        "pagePath": "pages/cart/index",
+        "text":"购物车",
+        "iconPath": "./icon/a-add.png",
+        "selectedIconPath": "./icon/add.png"
+      },
+      {
+        "pagePath": "pages/user/index",
+        "text":"我的",
+        "iconPath": "./icon/profig.png",
+        "selectedIconPath": "./icon/a-profig.png"
+      }         
+    ]
+  },
   "sitemapLocation": "sitemap.json"
 }

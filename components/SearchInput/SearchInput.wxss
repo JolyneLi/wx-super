@@ -1,0 +1,21 @@
+.input {
+    height: 90rpx;
+    background-color: var(--themeColor);
+    padding: 10rpx;
+}
+
+navigator {
+    height: 100%;
+    background-color: #fff;
+    color: #666;
+    /* text-align: center;
+    line-height: 70rpx; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 15rpx;
+}
+
+.navigatorhover {
+    background-color: #eee;
+}
