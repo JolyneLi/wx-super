@@ -1,5 +1,18 @@
 <view class="main">
-    低腰
     <SearchInput></SearchInput>
-    13
+    <!-- 轮播图 -->
+    <!-- swiper标签存在默认宽高 100% * 240px -->
+    <!-- image标签也存在默认宽高 320 * 240-->
+    <!-- 步骤 -->
+    <!-- 1.观察原图宽高 750px*340px
+        2.让图片高度自适应
+        3.让swiper标签的高度与图片高度一致
+        4.图片标签 mode模式 -->
+    <swiper class="index_swiper" indicator-dots autoplay circular indicator-color="pink" indicator-active-color="rgba(254, 215, 234)">
+        <swiper-item wx:for="{{swiperList}}" wx:key="goods_id">
+            <navigator>
+                <image mode="widthFix" src="{{item.image_src}}"></image>
+            </navigator>
+        </swiper-item>
+    </swiper>
 </view>
