@@ -1,13 +1,28 @@
-
-.index{
+.index {
     font-size: var(--themeFont);
     color: var(--col_c);
 
 }
-.index_swiper{
+
+.index_swiper {
     width: 100%;
     height: 340rpx;
 }
-.index_swiper image{
+
+.index_swiper image {
     width: 100%;
+}
+
+.nav {
+    display: flex;
+}
+
+.nav navigator {
+    width: 25%;
+    padding: 20rpx;
+}
+
+.nav navigator image {
+    width: 100%;
+    
 }

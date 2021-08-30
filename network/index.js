@@ -17,6 +17,6 @@ function request(url_path) {
 
 module.exports = {
     request,
-    base_url
+    // base_url
   }
 

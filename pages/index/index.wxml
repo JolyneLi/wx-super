@@ -15,4 +15,11 @@
             </navigator>
         </swiper-item>
     </swiper>
+
+    <!-- 四图导航 -->
+    <view class="nav">
+        <navigator wx:for="{{catesList}}" wx:key="index">
+            <image mode="widthFix" src="{{item.image_src}}" class="nav_tu"></image>
+        </navigator>
+    </view>
 </view>
