@@ -1,0 +1,71 @@
+
+.mainColor { color:  #018dff;}
+
+.mainBackColor { background-color: #018dff;}
+.backg_f1f9ff { background: #f1f9ff !important;}
+.color_red { color:rgb(254, 34, 120)}
+.color_green { color:rgb(68, 187, 0)}
+.color_gray { color:#C0C4CC;}
+.backg_gray{ background-color: #C0C4CC;}
+
+.back_gradient_color{ background-image:linear_gradient(45deg, #23c8fd , #1dacf8); color:#ffffff;}
+.bck_f7 {background-color: #f7f7f7;}
+.bck_fff { background-color: #fff;}
+.bck_f5f6 {background-color: #f5f6fb;}
+.bck_eee {background-color: #eee;}
+.bck_e5 { background-color: #e5e5e5;}
+.bck_ccc {background-color: #ccc;}
+.bak_b8 {background-color: #f8faff;}
+.bck_b {background-color: #1059e8;}
+.bck_green {background-color: #7ED321;}
+.bck_r {background-color: #ec333f;}
+.bck_card {background-color: #ecf5ff;}
+.bck_gift {background-color: #fef0f0;}
+.bck_s_blue {background-color: #00c0ef;}
+
+.bck_f5 {background-color: #f5f5f5 !important;}
+.bck_f2 {background-color: #f2f2f2 !important;}
+.bck_fa {background-color: #fafafa;}
+.col_0 {color: #000;}
+.col_c {color: #ccc;}
+.col_f {color: #fff;}
+.col_1 {color: #111;}
+.col_3 {color: #333 ;}
+.col_6 {color: #666;}
+.col_7 {color: #777;}
+.col_8{color: #888;}
+.col_9 {color: #999 ;}
+.col_m {color: #ec333f !important;}
+.col_r{color:#FE4555;}
+.col_d_green{color: rgb(68, 187, 0);}
+.col_green {color: #00B275 !important;}
+.col_gray {color: #C0C4CC;}
+.col_s_blue {color: #1DACF8 !important;}
+.col_b {color: #1059e8;}
+.col_b0 {color:  #00c0ef !important;}
+.col_2c {color: #2c9bff;}
+.col_0e {color: #0E3D75;}
+.col_0e0e {color:#0e0e0e}
+.col_07 {color: #0792FC;}
+.col_35 {color: #3566ff;}
+.col_40{color: #4088df;}
+.col_ff5{color: #ff5e77;}
+.col_card {color: #409EFF;}
+.col_gift {color: #f56c6c;}
+.col_blue{color: #018dff;}
+.col_green{color: #2FC7A1;}
+.col_yellow{color: #FFAD2B;}
+.col_fda{color: #fad037;}
+.col_bg_gray{background-color:  #F5F7FA;}
+.col_bg_blue{background-color:  #008aff;}
+.col_bg_green{background-color:  #2fc7a1;}
+.col_bg_yellow{background-color:  #ffbf27;}
+.col_bg_red{background-color:  #fe4555;}
+
+
+.col_1{color: #19CAAD;}
+.col_2 {color: #8CC7B5;}
+.col_3 {color: #A0EEE1;}
+.col_4{color: #BEEDC7;}
+.col_5{color: #D1BA74;}
+.col_6{color: #E6CEAC;}

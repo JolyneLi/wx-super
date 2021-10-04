@@ -1,0 +1,26 @@
+{
+  "name": "wxsuper",
+  "version": "1.0.0",
+  "description": "这是鲜果购物小程序 wx",
+  "main": "app.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JolyneLi/wx-super.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/JolyneLi/wx-super/issues"
+  },
+  "homepage": "https://github.com/JolyneLi/wx-super#readme",
+  "dependencies": {
+    "@vant/weapp": "^1.8.5"
+  }
+}

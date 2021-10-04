@@ -1,1 +1,7 @@
 /* pages/category/index.wxss */
+.aaa{
+   width: 750rpx;
+}
+.ss{
+   color: green;
+}

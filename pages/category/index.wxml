@@ -1,2 +1,44 @@
+<van-cell-group>
+  <van-cell title="单元格" class="ss" title-style="color:green" required>
+    <view slot="">
+      <input type="text"/>
+    </view>
+  </van-cell>
+  <!-- <van-cell title="单元格" value="内容" label="描述信息" border="{{ false }}" /> -->
+</van-cell-group>
+
+<van-cell-group>
+  <van-cell title="单元格" is-link value="内容" bind:click="click"/>
+  <van-cell title="单元格" is-link value="内容" />
+  <van-cell title="单元格" is-link value="内容" />
+  <van-cell title="单元格" is-link value="内容" />
+</van-cell-group>
+  
+  
+
+<van-cell title="展示弹出层" is-link bind:click="showPopup" />
+<van-popup show="{{ show }}" bind:close="onClose" round position="bottom" custom-style="height: 40%" closeable >
+  <van-cell title="单元格" value="内容">
+    <mp-icon slot="" icon="done" color="#00b0ff" size="{{18}}"></mp-icon>
+  </van-cell>
+  <van-cell title="单元格" value="内容"/>
+  <van-cell title="单元格" value="内容"/>
+  <van-cell title="单元格" value="内容"/>
+  <van-cell title="单元格">
+    <mp-icon slot="" icon="done" color="#00b0ff" size="{{18}}"></mp-icon>
+  </van-cell>
+  <van-cell title="单元格" value="内容"/>
+</van-popup>
 
 
+<view bindtap="click">123</view>
+<van-action-sheet show="{{ isShow }}" title="标题" bind:close="Close" custom-style="height:40%">
+  <!-- <view>内容</view> -->
+  <block wx:for="{{30}}">
+    <van-cell title="单元格">
+    <mp-icon slot="" icon="done" color="#00b0ff" size="{{18}}"></mp-icon>
+  </van-cell>
+  </block>
+
+
+</van-action-sheet>

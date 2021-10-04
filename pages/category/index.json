@@ -1,3 +1,10 @@
 {
-  "usingComponents": {}
+  "usingComponents": {
+    "van-cell": "@vant/weapp/cell/index",
+    "van-cell-group": "@vant/weapp/cell-group/index",
+    "van-popup": "@vant/weapp/popup/index",
+    "van-divider": "@vant/weapp/divider/index",
+    "van-action-sheet": "@vant/weapp/action-sheet/index",
+    "mp-icon": "weui-miniprogram/icon/icon"
+  }
 }

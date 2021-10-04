@@ -1,0 +1,8 @@
+  <map id="loactionMap" 
+  longitude="{{longitude}}" 
+  latitude="{{latitude}}" 
+  scale="17" 
+  show-location="true" 
+  markers="{{markers}}"
+  bindregionchange="regionChange">
+  </map>

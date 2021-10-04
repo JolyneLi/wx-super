@@ -49,7 +49,7 @@ const http_api = {
                         resolve(res);
                         // wx.hideLoading();
                     }
-
+                    resolve(res);
                 },
                 fail: (res) => {
                     reject(res);
@@ -91,3 +91,4 @@ module.exports={
     base_url,
     http_api
 }
+

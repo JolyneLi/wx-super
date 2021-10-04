@@ -5,9 +5,30 @@ Page({
      * 页面的初始数据
      */
     data: {
-
+        show: false,
+        isShow:false,
+        actions:[{
+            name:"背景"
+        },{
+            name:"颜色"
+        }]
     },
-
+    showPopup() {
+        this.setData({
+            show: true
+        })
+    },
+    click(){
+        this.setData({
+            isShow: true
+        })
+    },
+    Close() {
+        this.setData({ isShow: false });
+    },
+    onClose() {
+        this.setData({ show: false });
+    },
     /**
      * 生命周期函数--监听页面加载
      */

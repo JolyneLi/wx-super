@@ -8,7 +8,8 @@
         2.让图片高度自适应
         3.让swiper标签的高度与图片高度一致
         4.图片标签 mode模式 -->
-    <swiper class="index_swiper" indicator-dots autoplay circular indicator-color="pink" indicator-active-color="rgba(254, 215, 234)">
+    <swiper class="index_swiper" indicator-dots autoplay circular indicator-color="pink"
+        indicator-active-color="rgba(254, 215, 234)">
         <swiper-item wx:for="{{swiperList}}" wx:key="goods_id">
             <navigator>
                 <image mode="widthFix" src="{{item.image_src}}"></image>
@@ -22,4 +23,30 @@
             <image mode="widthFix" src="{{item.image_src}}" class="nav_tu"></image>
         </navigator>
     </view>
+
+    <view class="mid">
+        <view class="mid_first" wx:for="{{detailList}}" wx:for-item="item" wx:key="index">
+            <view>
+                <view class="mid_1">
+                    <navigator>
+                        <image mode="widthFix" src="{{item.floor_title.image_src}}"></image>
+                    </navigator>
+                </view>
+                <view class="mid_2">
+                    <navigator wx:for="{{item.product_list}}"  wx:for-item="itemx" wx:key="index">
+                        <image mode="widthFix" src="{{itemx.image_src}}"></image>
+                    </navigator>
+                </view>
+            </view>
+        </view>
+    </view>
 </view>
+<view bindtap="click">123</view>
+
+
+<!-- 
+<video src="https://sf3-ttcdn-tos.pstatp.com/obj/tos-cn-v-0004/5267e8d9c5fa45b0aa9574a0e9a15be5" objectFit="cover" direction="90" play-btn-position="center" controls class="aaa">
+
+</video> -->
+
+<view bindtap="clissk">llll</view>
